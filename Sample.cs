@@ -217,7 +217,7 @@ namespace azureADRestApi.Controllers
 
             ProfileResultWrapper result = null;
             string skipToken = "";
-            //https://graph.microsoft.com/v1.0/users/eric@Your746.onmicrosoft.com
+            
             using (var httpClient = new HttpClient())
             {
                 var baseUrl = "https://graph.microsoft.com/v1.0/users?";
@@ -297,7 +297,7 @@ namespace azureADRestApi.Controllers
                 return new List<UserProfileResult>();
             }
 
-            //https://graph.microsoft.com/v1.0/users/eric@Your746.onmicrosoft.com
+            
             using (var httpClient = new HttpClient())
             {
                 var baseUrl = "https://graph.microsoft.com/v1.0/users?";
